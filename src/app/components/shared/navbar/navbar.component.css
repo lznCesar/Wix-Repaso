@@ -1,0 +1,49 @@
+
+
+.global{
+    background: #FFFFFF;
+    width: 100%;
+    height: 35vh;
+}
+
+.titulo{
+    align-items: center;
+    text-align: center;
+     padding-top: 50px;
+}
+
+.titulo h1{
+    font-family: 'DM Mono', monospace;
+     letter-spacing: 4px;
+     font-size: 65px;
+}
+
+.list{
+    padding: 50px 150px 0px 150px
+
+
+}
+
+.navBar{
+    display: flex;
+   justify-content: space-around;
+   list-style: none;
+   font-family: 'Baloo 2', cursive;
+}
+
+.navBar li{
+    font-size: 15px;
+}
+
+.navBar li:nth-child(1){
+    padding-right: 120px;
+   
+}
+
+.navBar li:nth-child(2){
+    color: dodgerblue;
+}
+
+.navBar li:nth-child(6){
+    padding-left: 120px;
+}
