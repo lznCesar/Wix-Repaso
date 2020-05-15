@@ -1,0 +1,101 @@
+.global{
+    widows: 100%;
+    height: 130vh;
+    background:#FEFEFE;
+ 
+}
+
+h3{
+ padding-top: 40px;
+ font-family: 'Inconsolata', monospace;
+letter-spacing: 3px;
+}
+
+.ArrivalsGeneral{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px 90px;
+    padding: 20px 0px;
+    height: 70vh;
+    cursor: pointer;
+    font-family: 'Baloo 2', cursive;
+    color: grey;
+}
+
+.cardArrival{
+    width: 20vw;
+    height: 60vh;
+    background:white;
+}
+
+.padre{
+width: 100%;
+height: 70%;
+}
+
+.padre img{
+    width: 100%;
+    height: 80%;
+}
+
+.hijo{
+    width: 100%;
+    height: 20%;  
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    visibility: hidden;
+}
+.cardArrival:hover .hijo{
+    visibility: visible;
+    background: rgba(236, 232, 232, 0.849);
+    opacity: 0.5;
+    animation: animation .5s forwards;
+}
+
+@keyframes animation{
+    from{
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.detalles{
+    background: #FEFEFE;
+    height: 30%;
+    width: 100%;
+    padding: 10px 0px;
+    position: relative;
+}
+
+.detalles div{
+    background: #FEFEFE;
+    position: absolute;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    text-align: center; 
+}
+
+.Shop {
+    margin-top: 30px;
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+}
+
+.Shop a{
+    width: 15vw;
+    display: flex;
+    justify-content: center;
+  align-items: center;
+  font-family: 'Inconsolata', monospace;
+  color: grey;
+  border: 1px solid grey;
+}

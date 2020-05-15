@@ -1,0 +1,26 @@
+<div class="global">
+  <h3 class="text-center">New Arrival</h3>
+
+  <div class="ArrivalsGeneral">
+    <div class="cardArrival" *ngFor="let card of NewProducts">
+      <div class="padre">
+        <img [src]="card.img" class="arival" alt="" />
+
+        
+        <div class="hijo">
+          <span class="text-center">Quick View</span>
+        </div>
+      </div>
+      <div class="detalles">
+        <div>
+          <span>{{card.product}}</span>
+          <span>${{card.price}}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="Shop">
+    <a>Shop All</a>
+  </div>
+</div>

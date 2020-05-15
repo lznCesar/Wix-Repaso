@@ -1,4 +1,6 @@
-const departments = [
+import { DepartamentInterface, BrandInterface, ProductsInterface} from "src/app/Interfaces/ecomerce.interfaces";
+
+export const departments:Array<DepartamentInterface> = [
     {
         id: 1,
         department:'Él',
@@ -21,7 +23,7 @@ const departments = [
     }
 ]
 
-const brand = [
+export const brand:Array<BrandInterface> = [
     {
         id:1,
         brand:'nike',
@@ -49,7 +51,7 @@ const brand = [
     },
 ]
 
-const products = [
+export const products:Array<ProductsInterface>= [
   {
     id:1,
     brand:1,
